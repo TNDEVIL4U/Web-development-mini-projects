@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colourful Page</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 8lvh;
+        }
+        button {
+            font-size: 5lvb;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 4lvh;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            border-radius: 15px;
+            color: black;
+            padding: 20px;
+            background-color: white;
+        }
+    </style>
+    <script>
+        function change(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</head>
+<body>
+    <h1>Press the button to change the page color</h1>
+    <center>
+        <button onclick="change('red')">Red</button>
+        <button onclick="change('green')">Green</button>
+        <button onclick="change('blue')">Blue</button>
+        <button onclick="change('orange')">Orange</button>
+        <button onclick="change('white')">White</button>
+    </center>
+</body>
+</html>
