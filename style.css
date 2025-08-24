@@ -13,4 +13,11 @@ button{
     padding : 5px;
     margin: 4lvh;
     text-align: center;
+
+}
+button:hover{
+    border-radius: 15px;
+    color: black;
+    padding: 20px;
+    background-color: white;
 }
