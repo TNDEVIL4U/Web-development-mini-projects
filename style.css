@@ -15,9 +15,13 @@ button{
     text-align: center;
 
 }
+button {
+  transition: all 0.3s ease;
+}
 button:hover{
     border-radius: 15px;
     color: black;
     padding: 20px;
     background-color: white;
 }
+
